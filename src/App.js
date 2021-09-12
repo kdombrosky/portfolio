@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 
 // import components
 import Nav from './components/Nav/';
-// import Footer from './components/Footer/';
+import Footer from './components/Footer/';
 
 // About Me, Portfolio, Contact, and Resume, 
 // and the title corresponding to the current section is highlighted
@@ -25,7 +25,7 @@ function App() {
         currentCategory={currentCategory} 
       />
 
-      
+      <Footer />
     </div>
   );
 }

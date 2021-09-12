@@ -33,7 +33,7 @@ function Nav(props) {
                             <span onClick={() => { setCurrentCategory(category) }}>
                             <a 
                             href={`#${category.name}`}
-                            className='nav-link'>
+                            className='nav-link '>
                                 {category.name}
                             </a>
                             </span>
