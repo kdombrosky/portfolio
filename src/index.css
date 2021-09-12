@@ -16,9 +16,6 @@ header {
   font-family: 'Roboto Mono', monospace;
 }
 
-.nav-item a:hover {
-  color: pink;
-}
 
 .navbar {
   padding-top: 0;
